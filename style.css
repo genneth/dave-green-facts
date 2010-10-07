@@ -1,0 +1,51 @@
+body
+{
+  background-image: url(bg.gif);
+  background-color: #fff;
+  color: #000;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+  font-size: 10pt;
+}
+li {
+  margin: 0em 0em 1em -2em;
+}
+
+#header
+{
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#main, #footer
+{
+  width: 500px;
+  margin: 20px auto 20px auto;
+}
+#main
+{
+  padding: 35px 0px 0px 0px;
+  background-image: url(topfacts.png);
+  background-repeat: no-repeat;
+}
+#content, #disclaimer
+{
+  padding: 1em 2em 1em 2em;
+  background-color: #fff;
+  border: 5px;
+  border-style: solid;
+  border-color: #663333;
+}
+#content ol li, #disclaimer {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+  font-size: 0.9em;
+  color: #333333;
+}
+a {
+  color: #663333;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
